@@ -9,12 +9,10 @@ int minus(int a, int b) {
 }
 
 int main() {
-
     int num1, num2;
     printf("Enter 2 numbers: ");  // Prompt for input with newline character included
     scanf("%d %d", &num1, &num2);  // Read two integers from the user
     printf("%d - %d = %d\n", num1, num2, minus(num1, num2));  // Print the result of subtraction
     return 0;
-
 }
 
